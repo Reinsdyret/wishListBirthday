@@ -1,0 +1,53 @@
+body{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 0.5fr;
+    grid-template-rows: 0.5fr 1fr 1fr 0.5fr;
+    background-color: cornsilk;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: 1000;
+    color:burlywood
+}
+p{
+    padding: 10px;
+}
+#textCont{
+    grid-column: 2/4;
+    grid-row: 1/2;
+    text-align: center;
+    
+}
+
+#deckCont{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: center;
+    border: 1px dotted black;
+    background-color: darksalmon;
+}
+
+#gripCont{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    text-align: center;
+    border: 1px dotted black;
+    background-color: darksalmon;
+}
+
+#wheelCont{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    text-align: center;
+    border: 1px dotted black;
+    background-color: darksalmon;
+}
+
+#bearingsCont{
+    grid-column: 3/4;
+    grid-row: 3/4;
+    text-align: center;
+    border: 1px dotted black;
+    background-color: darksalmon;
+}
